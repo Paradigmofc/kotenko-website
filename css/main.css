@@ -150,7 +150,8 @@ img {
     color: var(--main-color-text) !important;
 }
 .button-next:hover {
-    margin-top: 56px;
+    transform: translateY(16px);
+    
 }
 /* ABOUT */
 .about__title {
@@ -180,6 +181,7 @@ img {
 .add_width-2 {
     width: 700px;
 }
+/* ====== CERTIFICATES ======= */
 .cert__first-block {
     margin-bottom: 64px;
 }
@@ -191,9 +193,8 @@ img {
 .certificate__img {
     height: 160px;
     width: 270px;
-}
-.item {
-    overflow: hidden;
+    transition: 0.5s ease;
+    object-fit: contain;
 }
 .cert__second-block {
     margin-top: 64px !important;
@@ -204,7 +205,6 @@ img {
     color: var(--main-color-text);
     width: 600px;
 }
-/* ===================== */
 @keyframes scroll {
 	0% { transform: translateX(0); }
 	100% { transform: translateX(calc(-250px * 7))}
