@@ -3,7 +3,7 @@
 
 :root {
     --main-color-text: 	hsl(193, 26%, 93%);
-    --add-color: hsl(82, 70%, 38%);
+    --main-green-color: hsl(82, 70%, 38%);
     --alpha-main: hsla(193, 26%, 93%, 0.5);
     --white-color: #fff;
 }
