@@ -1,5 +1,5 @@
 /* Font */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap');
 /* -------------- */
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
@@ -318,5 +318,290 @@ img {
 .methods__img {
     width: 400px;
     height: 777px;
+    margin: 0 auto;
 }
 /* SECOND HALF */
+.second-half {
+    background: url('../img/bg-second.jpg') center no-repeat;
+}
+.services {
+    padding-top: 96px;
+    padding-bottom: 128px;
+}
+.services__title-block {
+    margin-bottom: 116px;
+}
+.services__title {
+    color: rgba(20, 30, 25, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.dark-text {
+    font-size: 48px;
+    font-weight: 600;
+    color: black;
+    line-height: 64px;
+}
+.position {
+    position: relative;
+}
+.numbers-block {
+    position: absolute;
+    margin-left: -32%;
+    margin-top: -20px;
+}
+.service__data {
+    padding-bottom: 166px;
+}
+.service__list-title {
+    margin-right: 44px;
+    font-weight: 400;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.service__list-subtitle {
+    font-weight: 400;
+    font-style: italic;
+    color: rgba(20, 30, 25, 0.3);
+    font-size: 16px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.price__btn {
+    background: #72A31D;
+    border-radius: 12px;
+    padding: 7px 54px;
+    font-size: 24px;
+    font-weight: 700;       
+    color: #FBFBFB;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.price__btn:hover {
+    
+}
+.service__menu-title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #141E19;
+    margin-top: 36px;
+    margin-bottom: 24px;
+}
+.service__menu {
+    padding: 0;
+}
+.service__li {
+    font-size: 18px;
+    color: #141E19;
+    font-weight: 700;
+    width: 60%;
+}
+.algorithm__title {
+    font-size: 18px;
+    font-weight: 400;
+    color: #141E19;
+    margin-top: 36px;
+}
+.algorithm__menu {
+    padding: 0;
+}
+.algorithm__text-first {
+    margin: 44px 0;
+}
+.first__algorithm-li {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--main-green-color);
+    padding: 10px 24px;
+    border: 3px solid #72A31D;
+    border-radius: 12px;
+    margin-right: 44px;
+    position: relative;
+}
+.first__algorithm-li::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 20px;
+    right: -47px;
+    height: 2px;
+    width: 44px;
+    background: #72A31D;
+}
+.first__algorithm-li:last-child::after {
+    transform: rotate(-90deg);
+    top: 71px;
+    right: 40px;
+}
+.second__algorithm-li {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--main-green-color);
+    padding: 10px 24px;
+    border: 3px solid #72A31D;
+    border-radius: 12px;
+    margin-right: 44px;
+    position: relative;
+}
+.second__algorithm-li::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 20px;
+    right: -47px;
+    height: 2px;
+    width: 44px;
+    background: #72A31D;
+}
+.second__algorithm-li:last-child::after {
+    display: none;
+}
+.nutrition__data {
+    padding-bottom: 212px;
+}
+.nutrition__list-title {
+    font-size: 36px;
+    font-weight: 400;
+    color: #141E19;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    margin-right: 44px;
+}
+.price__btn-second {
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FBFBFB;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 7px 47px;
+    background: #6745F2;
+    border-radius: 12px;
+}
+.nutrition-list {
+    margin-bottom: 36px;
+}
+.nutrition__description {
+    width: 565px;
+    font-size: 18px;
+    color: #141E19;
+}
+.programm__data {
+    padding-bottom: 150px;
+}
+.programm__list-title {
+    font-size: 36px;
+    font-weight: 400;
+    color: #141E19;
+    width: 565px;
+    line-height: 54px;
+    margin-right: 44px;
+    margin-bottom: 36px;
+}
+.price__btn-third {
+    background: #72A31D;
+    border-radius: 12px;
+    padding: 7px 54px;
+    font-size: 24px;
+    font-weight: 700;       
+    color: #FBFBFB;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.programm__description {
+    width: 565px;
+    font-size: 18px;
+    color: #141E19;
+}
+.mega__data {
+    padding-bottom: 150px;
+}
+.mega-list {
+    margin-bottom: 36px;
+}
+.mega__list-title {
+    font-size: 36px;
+    font-weight: 400;
+    color: #141E19;
+    margin-right: 44px;
+}
+.mega__menu {
+    padding: 0;
+}
+.mega__li {
+    font-size: 18px;
+    color: #141E19;
+    font-weight: 700;
+}
+.purple-text {
+    color: #6745F2;
+}
+.price__btn-fourth {
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FBFBFB;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 7px 47px;
+    background: #6745F2;
+    border-radius: 12px;
+}
+.protocol__data {
+    padding-bottom: 150px;
+}
+.protocol-list {
+    margin-bottom: 36px;
+}
+.protocol__list-title {
+    width: 585px;
+    margin-right: 44px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    color: #141E19;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.protocol__description {
+    width: 70%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #141E19;
+}
+.price__btn-fifth {
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FBFBFB;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 7px 47px;
+    background: #72A31D;
+    border-radius: 12px;
+}
+.check__data {
+    padding-bottom: 180px;
+}
+.check-list {
+    margin-bottom: 36px;
+}
+.check__list-title {
+    width: 585px;
+    margin-right: 44px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    color: #141E19;
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.check__description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #141E19;
+}
+.price__btn-sixth {
+    text-transform: uppercase;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #FBFBFB;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 7px 47px;
+    background: #6745F2;
+    border-radius: 12px;
+}
