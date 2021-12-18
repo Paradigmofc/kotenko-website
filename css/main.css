@@ -1,5 +1,7 @@
 /* Font */
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap');
+/* -------------- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
     --main-color-text: 	hsl(193, 26%, 93%);
@@ -93,6 +95,7 @@ img {
     letter-spacing: 0.04em;
     width: 570px;
     line-height: 86px;
+    color: var(--main-color-text);
 }
 .green-text {
     font-weight: 700;
@@ -154,6 +157,9 @@ img {
     
 }
 /* ABOUT */
+.about {
+    padding-bottom: 256px;
+}
 .about__title {
     font-size: 14px;
     font-weight: 400;
@@ -243,4 +249,49 @@ img {
 .slide::before {
 	left: 0;
 	top: 0;
+}
+/* REQUSETS */
+.request {
+    padding-bottom: 228px;
+}
+.request__title {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--alpha-main);
+    margin-bottom: 64px;
+}
+.cards__block {
+    width: 770px;
+}
+.card {
+    background: transparent !important;
+    border: 4px solid #72A31D !important;
+    border-radius: 16px !important;
+    height: 100px;
+    width: 370px;
+    transition: 0.5s ease;
+}
+.card:hover p {
+    color: var(--main-green-color);
+}
+.card:hover {
+    background: #E9F0F2 !important;
+}
+.card:hover img {
+    color: #72A31D;
+}
+.card-body {
+    padding: 0 !important;
+}
+.card-text {
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0.12em;
+    margin-left: 16px;
+}
+.card__img {
+    width: 44px;
+    margin-left: 28px;
 }
