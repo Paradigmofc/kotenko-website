@@ -36,7 +36,7 @@ img {
 }
 /* HEADER */
 .first-half {
-    background: url('../img/bg-first.webp') center / cover no-repeat;
+    background: url('../img/bg-first.jpg') center / cover no-repeat;
 }
 .header__wrapper {
     padding-top: 44px;
@@ -158,6 +158,7 @@ img {
 }
 /* ABOUT */
 .about {
+    padding-top: 238px;
     padding-bottom: 256px;
 }
 .about__title {
@@ -294,4 +295,27 @@ img {
 .card__img {
     width: 44px;
     margin-left: 28px;
+}
+/* METHODS */
+.methods__title {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--alpha-main);
+    line-height: 24px;
+}
+.methods__list {
+    padding: 0;
+    margin-top: 36px;
+}
+.methods__li {
+    background: #72A31D;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--main-color-text);
+    padding: 28px;
+}
+.methods__img {
+    width: 400px;
+    height: 777px;
 }
