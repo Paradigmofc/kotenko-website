@@ -328,6 +328,9 @@ img {
     height: 777px;
     margin: 0 auto;
 }
+.zindex {
+    z-index: 1;
+}
 /*================================================= SECOND HALF =================================================*/
 .second-half {
     background: url('../img/bg-second.jpg') center / cover no-repeat;

@@ -33,6 +33,9 @@
     }
 }
 @media screen and (max-width: 991px) {
+    .first-half {
+        overflow: hidden;
+    }
     .header__wrapper {
         padding-top: 30px;
         padding-bottom: 72px;
@@ -72,7 +75,6 @@
     }
     .methods {
         margin-top: 144px;
-        overflow: hidden;
         padding-bottom: 131px;
     }
     .methods__img {
@@ -251,5 +253,104 @@
     }
     .nav-link.me-5 {
         margin-right: 0 !important;
+    }
+    .offer__description {
+        width: 100%; 
+    }
+    .add_width-1 {
+        width: 70%;
+    }
+    .add_width-2 {
+        width: 100%;
+    }
+    .about__img-block {
+        position: absolute;
+        top: 26%;
+        right: -20%;
+    }
+    .about__img {
+        width: 216px;
+        height: 300px;
+    }
+    .certificates__description {
+        width: 100%;
+    }
+    .request__img-block {
+        position: absolute;
+        top: 0;
+        right: -15%;
+        width: 216px;
+        height: 377px;
+    }
+    .methods__img {
+        bottom: 465px;
+        z-index: -1;
+    }
+    .big-text {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .dark-text {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .service__second-number {
+        width: 90px;
+    }
+    .price__btn {
+        padding: 7px 0;
+    }
+    .price__btn-second {
+        padding: 7px 0;
+    }
+    .price__btn-third {
+        padding: 7px 0;
+    }
+    .price__btn-fourth {
+        padding: 7px 0;
+    }
+    .price__btn-fifth {
+        padding: 7px 0;
+    }
+    .price__btn-sixth {
+        padding: 7px 0;
+    }
+    .service__list-title {
+        width: 100%;
+    }
+    .nutrition__list-title {
+        width: 100%;
+    }
+    .programm__list-title {
+        width: 100%;    
+    }
+    .program__list-title {
+        width: 100%;
+    }
+    .check__list-title {
+        width: 100%;
+    }
+    .contacts__block {
+        margin-top: 44px;
+    }   
+    .contacts__links {
+        flex-direction: column;
+    }
+    .order-menu {
+        order: 2;
+    }
+    .order-logo {
+        order: 1;
+    }
+}
+@media screen and (max-width: 575px) {
+    .offer__description {
+        
+    }
+    .card {
+        width: 100%;
+    }
+    .card__img {
+        margin-left: 24px;
     }
 }
