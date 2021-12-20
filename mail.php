@@ -25,12 +25,12 @@ $mail->addAddress('lexa.animewnik@gmail.com');  // Кому будет уход�
 $mail->isHTML(true);                          
 
 $mail->Subject = 'Заявка с сайта Kotenko nutri';
-$mail->Body    = '' .$name . ' оставил заявку,<br> Его выбор услуги: '.$select' <br> его сообщение:'.$text .'<br>Социальная сеть пользователя:'.$social' <br>Почта этого пользователя: ' .$email;
+$mail->Body = ''. $name . ' оставил заявку <br>  Выбрал услугу: ' . $select . ' <br> Его сообщение: '.$text .' <br>Почта этого пользователя: ' .$email . '<br>Способ связи: ' .$social;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
     echo 'Error';
 } else {
-    header('location: index.html');
+    header('location: thanks.html');
 }
 ?>
