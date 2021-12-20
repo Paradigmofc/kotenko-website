@@ -283,8 +283,16 @@ img {
 .card:hover {
     background: #E9F0F2 !important;
 }
-.card:hover img {
-    color: #72A31D;
+.green__card-img {
+    width: 44px;
+    margin-left: 28px;
+    display: none;
+}
+.card:hover .card__img {
+    display: none;
+}
+.card:hover .green__card-img {
+    display: block;
 }
 .card-body {
     padding: 0 !important;
