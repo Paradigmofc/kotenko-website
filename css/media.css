@@ -434,8 +434,80 @@
     .request__img-block {
         right: -20%;
     }
+    .service-list {
+        margin-left: 21%;
+    }
     .accordion-button::after {
         right: 25%;
+    }
+    .nutrition__data {
+        padding-bottom: 64px;
+    }
+    .nutrition-list {
+        margin-left: 21%;
+    }
+    .nutrition__list-title {
+        font-size: 24px;
+    }
+    .programm__data {
+        padding-bottom: 64px;
+    }
+    .programm-list {
+        margin-left: 21%;
+    }
+    .programm__list-title {
+        font-size: 24px;
+        line-height: 36px;
+        width: 220px;
+    }
+    .mega__data {
+        padding-bottom: 64px;
+    }
+    .mega-list {
+        margin-left: 21%;
+    }
+    .mega__list-title {
+        font-size: 24px;
+    }
+    .protocol__data {
+        padding-bottom: 64px;
+    }
+    .protocol-list {
+        margin-left: 21%;
+    }
+    .protocol__list-title {
+        font-size: 20px;
+        line-height: 32px;
+        width: 210px;
+    }
+    .check__data {
+        padding-bottom: 72px;
+    }
+    .check-list {
+        margin-left: 21%;
+    }
+    .check__list-title {
+        font-size: 24px;
+    }
+    .contact__title {
+        font-size: 14px;
+    }
+    .contact__title-block {
+        margin-bottom: 36px;
+    }
+    .footer__link {
+        margin-right: 0;
+    }
+    .footer__li {
+        margin-bottom: 24px;
+    }
+    .footer__logo-block {
+        width: 43px;
+        height: 45px;
+        margin: 0 auto;
+    }
+    .footer__menu {
+        flex-direction: column !important;
     }
 }
 @media screen and (max-width: 450px) {
@@ -541,6 +613,47 @@
     .accordion-button::after {
         right: 20%;
     }
+    .price__btn {
+        font-size: 18px;
+    }
+    .price__btn-second {
+        font-size: 18px;
+    }
+    .price__btn-third {
+        font-size: 18px;
+    }
+    .price__btn-fourth {
+        font-size: 18px;
+    }
+    .price__btn-fifth {
+        font-size: 18px;
+    }
+    .price__btn-sixth {
+        font-size: 18px;
+    }
+    .nutrition__description {
+        font-size: 16px;
+        width: 100%;
+        line-height: 26px;
+    }
+    .programm__description {
+        font-size: 16px;
+        width: 100%;
+        line-height: 26px;
+    }
+    .mega__li {
+        font-size: 16px;
+    }
+    .protocol__description {
+        font-size: 16px;
+        width: 100%;
+        line-height: 26px;
+    }
+    .check__description {
+        font-size: 16px;
+        width: 100%;
+        line-height: 26px;
+    }
 }
 @media screen and (max-width: 400px) {
     .accordion-button::after {
@@ -548,14 +661,14 @@
     }
 }
 @media screen and (max-width: 350px) {
-    .service-list {
-        margin-left: 21%;
-    }
     .accordion-button::after {
         right: 13%;
     }
     .accordion-button {
         width: 290px !important;
+    }
+    .footer__logo-block {
+        margin-left: -5px;
     }
 }
 @media screen and (max-width: 330px) {

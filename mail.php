@@ -7,6 +7,8 @@ $mail->CharSet = 'utf-8';
 $name = $_POST['user_name'];
 $text = $_POST['user_text'];
 $email = $_POST['user_email'];
+$social = $_POST['user_social'];
+$select = $_POST['user_selection'];
 
 // $mail->SMTPDebug = 3;                             // Enable verbose debug output
 
@@ -22,8 +24,8 @@ $mail->setFrom('Admin');  // от кого будет уходить письм�
 $mail->addAddress('lexa.animewnik@gmail.com');  // Кому будет уходить письмо 
 $mail->isHTML(true);                          
 
-$mail->Subject = 'Заявка с сайта Conex Crypto';
-$mail->Body    = '' .$name . ' оставил заявку,<br> его сообщение:'.$text .' <br>Почта этого пользователя: ' .$email;
+$mail->Subject = 'Заявка с сайта Kotenko nutri';
+$mail->Body    = '' .$name . ' оставил заявку,<br> Его выбор услуги: '.$select' <br> его сообщение:'.$text .'<br>Социальная сеть пользователя:'.$social' <br>Почта этого пользователя: ' .$email;
 $mail->AltBody = '';
 
 if(!$mail->send()) {
