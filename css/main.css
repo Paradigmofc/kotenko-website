@@ -52,12 +52,15 @@ img {
 }
 .nav-link {
     color: var(--alpha-main) !important;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     position: relative;
 }
 .active {
     color: var(--main-green-color) !important;
+}
+.first-child {
+    font-weight: 600;
 }
 .first-child::after {
     content: '';
@@ -72,6 +75,7 @@ img {
 }
 .nav-link:hover {
     color: var(--main-green-color) !important;
+    font-weight: 600;
 }
 .nav-link:hover::after {
     content: '';
@@ -156,7 +160,9 @@ img {
 }
 .button-next:hover {
     transform: translateY(16px);
-    
+}
+.width_small {
+    width: 40px !important;
 }
 /* ABOUT */
 .about {
@@ -168,6 +174,11 @@ img {
     color: var(--alpha-main);
     width: 223px;
     margin-bottom: 64px;
+}
+.green-text2 {
+    font-size: 21px;
+    font-weight: 700;
+    color: var(--main-green-color);
 }
 .big-text {
     font-size: 48px;
@@ -223,12 +234,11 @@ img {
 }
 .slider {
 	background: transparent;
-	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
 	height: 100%;
 	margin: auto;
 	overflow:hidden;
 	position: relative;
-	width: 960px;
+	width: 1000px;
 }
 .slide-track {
     animation: scroll 40s linear infinite;
@@ -327,7 +337,7 @@ img {
     background: #72A31D;
     border-radius: 16px;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--main-color-text);
     padding: 28px;
 }
@@ -386,15 +396,14 @@ img {
 }
 .price__btn {
     background: #72A31D;
-    border-radius: 12px;
-    padding: 7px 54px;
+    border-radius: 12px;    
+    width: 170px !important;
+    height: 42px;
+    padding-top: 2px;
     font-size: 24px;
     font-weight: 700;       
     color: #FBFBFB;
     font-feature-settings: 'pnum' on, 'lnum' on;
-}
-.price__btn:hover {
-    
 }
 .service__menu-title {
     font-size: 18px;
@@ -495,7 +504,9 @@ img {
     color: #FBFBFB;
     font-size: 24px;
     font-weight: 700;
-    padding: 7px 47px;
+    width: 170px !important;
+    height: 42px;
+    padding-top: 2px;
     background: #6745F2;
     border-radius: 12px;
 }
@@ -522,7 +533,9 @@ img {
 .price__btn-third {
     background: #72A31D;
     border-radius: 12px;
-    padding: 7px 54px;
+    width: 170px !important;
+    height: 42px;
+    padding-top: 2px;
     font-size: 24px;
     font-weight: 700;       
     color: #FBFBFB;
@@ -562,7 +575,9 @@ img {
     color: #FBFBFB;
     font-size: 24px;
     font-weight: 700;
-    padding: 7px 47px;
+    width: 170px !important;
+    height: 42px;
+    padding-top: 2px;
     background: #6745F2;
     border-radius: 12px;
 }
@@ -594,7 +609,9 @@ img {
     color: #FBFBFB;
     font-size: 24px;
     font-weight: 700;
-    padding: 7px 47px;
+    width: 170px !important;
+    height: 42px;
+    padding-top: 2px;
     background: #72A31D;
     border-radius: 12px;
 }
@@ -625,7 +642,9 @@ img {
     color: #FBFBFB;
     font-size: 24px;
     font-weight: 700;
-    padding: 7px 47px;
+    width: 170px !important;
+    height: 42px;
+    padding-top: 2px;
     background: #6745F2;
     border-radius: 12px;
 }
@@ -646,10 +665,12 @@ img {
     border: none !important;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
     padding-bottom: 16px;
+    padding-left: 0 !important;
     color: rgba(0, 0, 0, 0.3) !important;
     -webkit-appearance: auto !important;
     margin-bottom: 44px;
     background: #FBFBFB !important;
+    box-shadow: none !important;
 }
 .option__style {
     font-size: 14px;
@@ -664,9 +685,13 @@ img {
 }
 .form__inputs input[type="text"] {
     background: #FBFBFB !important;
+    padding-left: 0 !important;
+    box-shadow: none !important;
 }
 .form__inputs input[type=email] {
     background: #FBFBFB !important;
+    padding-left: 0 !important;
+    box-shadow: none !important;
 }
 .form__inputs input::placeholder {
     font-size: 14px !important;
@@ -679,9 +704,11 @@ img {
     color: rgba(0, 0, 0, 0.3) !important;
 }
 ._textarea {
+    background: #FBFBFB !important;
     border: none !important;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
     resize: none;
+    box-shadow: none !important;
 }
 .btn__form {
     filter: drop-shadow(0px 0px 16px rgba(108, 72, 253, 0.24));
@@ -693,8 +720,8 @@ img {
     border-radius: 12px;
     color: var(--main-color-text);
     border: none;
-    padding: 17px 0;
     width: 100%;
+    height: 50px;
     text-align: center;
     margin: 0 auto;
     margin-top: 24px;

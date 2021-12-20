@@ -619,21 +619,39 @@
     }
     .price__btn {
         font-size: 18px;
+        width: 120px !important;
+        height: 40px;
+        border-radius: 8px;
     }
     .price__btn-second {
         font-size: 18px;
+        width: 120px !important;
+        height: 40px;
+        border-radius: 8px;
     }
     .price__btn-third {
         font-size: 18px;
+        width: 120px !important;
+        height: 40px;
+        border-radius: 8px;
     }
     .price__btn-fourth {
         font-size: 18px;
+        width: 120px !important;
+        height: 40px;
+        border-radius: 8px;
     }
     .price__btn-fifth {
         font-size: 18px;
+        width: 120px !important;
+        height: 40px;
+        border-radius: 8px;
     }
     .price__btn-sixth {
         font-size: 18px;
+        width: 120px !important;
+        height: 40px;
+        border-radius: 8px;
     }
     .nutrition__description {
         font-size: 16px;
