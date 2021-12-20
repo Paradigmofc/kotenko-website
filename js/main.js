@@ -15,7 +15,7 @@ $(function () {
 
 	        var topOfWindow = $(window).scrollTop();
 	        if (imagePos < topOfWindow+650) {
-	            $(this).addClass("animate__animated animate__fadeInDown");
+	            $(this).addClass("animate__animated animate__fadeInUp");
 	        }
 	    });
 	});
@@ -25,7 +25,7 @@ $(function () {
 
 	        var topOfWindow = $(window).scrollTop();
 	        if (imagePos < topOfWindow+650) {
-	            $(this).addClass("animate__animated animate__fadeInDown");
+	            $(this).addClass("animate__animated animate__fadeInUp");
 	        }
 	    });
 	});
@@ -45,7 +45,7 @@ $(function () {
 
 	        var topOfWindow = $(window).scrollTop();
 	        if (imagePos < topOfWindow+650) {
-	            $(this).addClass("animate__animated animate__slideInLeft");
+	            $(this).addClass("animate__animated animate__slideInRight");
 	        }
 	    });
 	});
@@ -56,7 +56,7 @@ $(function () {
 
 	        var topOfWindow = $(window).scrollTop();
 	        if (imagePos < topOfWindow+650) {
-	            $(this).addClass("animate__animated animate__slideInLeft");
+	            $(this).addClass("animate__animated animate__slideInRight");
 	        }
 	    });
 	});
@@ -67,7 +67,7 @@ $(function () {
 
 	        var topOfWindow = $(window).scrollTop();
 	        if (imagePos < topOfWindow+650) {
-	            $(this).addClass("animate__animated animate__slideInLeft");
+	            $(this).addClass("animate__animated animate__slideInRight");
 	        }
 	    });
 	});
@@ -78,7 +78,7 @@ $(function () {
 
 	        var topOfWindow = $(window).scrollTop();
 	        if (imagePos < topOfWindow+650) {
-	            $(this).addClass("animate__animated animate__slideInLeft");
+	            $(this).addClass("animate__animated animate__slideInRight");
 	        }
 	    });
 	});
@@ -89,7 +89,7 @@ $(function () {
 
 	        var topOfWindow = $(window).scrollTop();
 	        if (imagePos < topOfWindow+650) {
-	            $(this).addClass("animate__animated animate__slideInLeft");
+	            $(this).addClass("animate__animated animate__slideInRight");
 	        }
 	    });
 	});
@@ -100,7 +100,7 @@ $(function () {
 
 	        var topOfWindow = $(window).scrollTop();
 	        if (imagePos < topOfWindow+650) {
-	            $(this).addClass("animate__animated animate__slideInLeft");
+	            $(this).addClass("animate__animated animate__slideInRight");
 	        }
 	    });
 	});
@@ -111,7 +111,7 @@ $(function () {
 
 	        var topOfWindow = $(window).scrollTop();
 	        if (imagePos < topOfWindow+650) {
-	            $(this).addClass("animate__animated animate__fadeInDown");
+	            $(this).addClass("animate__animated animate__fadeInUp");
 	        }
 	    });
 	});
