@@ -539,7 +539,7 @@
         margin-bottom: 36px;
     }
     .about__img-block {
-        right: -32%;
+        right: -21%;
     }
     .add_width-1 {
         width: 70% !important;
@@ -568,12 +568,16 @@
         width: 290px;
     }
     .request__img-block {
-        right: -33%;
+        right: -21%;
     }
     .card {
         width: 100%;
     }
     .card__img {
+        margin-left: 24px;
+        width: 36px;
+    }
+    .green__card-img {
         margin-left: 24px;
         width: 36px;
     }
