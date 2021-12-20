@@ -30,7 +30,7 @@ $(function () {
 	    });
 	});
 	$(window).scroll(function() {
-	    $('.methods__list').each(function(){
+	    $('.method-block').each(function(){
 	        var imagePos = $(this).offset().top;
 
 	        var topOfWindow = $(window).scrollTop();
