@@ -12,6 +12,10 @@
 }
 
 /* Main setting */
+html, body {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Raleway', sans-serif !important;
     padding: 0;
@@ -36,12 +40,13 @@ img {
     width: 100%;
     display: block;
 }
+
 .animate__animated {
-    opacity: 100% !important;
+    opacity: 1 !important;
 }
 /* HEADER */
 .first-half {
-    background: url('../img/bg-first.jpg') center / cover no-repeat;
+    background: url('../img/bg-first.png') center / cover no-repeat;
 }
 .header__wrapper {
     padding-top: 44px;
@@ -363,7 +368,7 @@ img {
 }
 /*================================================= SECOND HALF =================================================*/
 .second-half {
-    background: url('../img/bg-second.jpg') center / cover no-repeat;
+    background: url('../img/bg-second.png') center / cover no-repeat;
 }
 .services__wrapper {
     padding-top: 96px;
